@@ -28,9 +28,9 @@ namespace Lab2
                 double volume = L * W * H;
 
                 // Displays Console lines for Area, Perimeter, and Volume, where the variables are also displayed to the user
-                Console.WriteLine("Area: " + area + "ft");
-                Console.WriteLine("Perimeter: " + perimeter + "ft");
-                Console.WriteLine("Volume: " + volume + "ft");
+                Console.WriteLine("Area: " + area + " sqft");
+                Console.WriteLine("Perimeter: " + perimeter + " ft");
+                Console.WriteLine("Volume: " + volume + " cubic ft");
 
                 Console.WriteLine("Continue? (y/n)"); // Asks the user to continue the loop or not
 
