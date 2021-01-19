@@ -28,13 +28,13 @@ namespace Lab2
                 double volume = L * W * H;
 
                 // Displays Console lines for Area, Perimeter, and Volume, where the variables are also displayed to the user
-                Console.WriteLine("Area: " + area);
-                Console.WriteLine("Perimeter: " + perimeter);
-                Console.WriteLine("Volume: " + volume);
+                Console.WriteLine("Area: " + area + "ft");
+                Console.WriteLine("Perimeter: " + perimeter + "ft");
+                Console.WriteLine("Volume: " + volume + "ft");
 
                 Console.WriteLine("Continue? (y/n)"); // Asks the user to continue the loop or not
 
-            } while (Console.ReadLine().ToLower() == "y"); // This assumes as long as they do not say "Y" or "y" it will continue to run
+            } while (Console.ReadLine().ToLower() == "y"); // Breaks the loop unless "y" or "Y" is entered, this assumes that you do not want to continue unless you answer "y" or "Y"
         }
     }
 }
