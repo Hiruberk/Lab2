@@ -23,9 +23,9 @@ namespace Lab2
                 double H = double.Parse(Console.ReadLine());
 
                 // Formulas to calculate Area, Perimeter, and Volume where they are assigned double to allow for decimal places.
-                double area = L * W;
-                double perimeter = 2 * L + 2 * W;
-                double volume = L * W * H;
+                double area = Math.Round(L * W, 2);
+                double perimeter = Math.Round(2 * L + 2 * W, 2);
+                double volume = Math.Round(L * W * H, 2);
 
                 // Displays Console lines for Area, Perimeter, and Volume, where the variables are also displayed to the user
                 Console.WriteLine("Area: " + area + " sqft");
