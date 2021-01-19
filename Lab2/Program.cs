@@ -7,7 +7,7 @@ namespace Lab2
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Grand Circus Room Detail Generator!");
-            bool again = true;
+           
 
             do
             {
@@ -19,8 +19,10 @@ namespace Lab2
                 double perimeter = 2 * L + 2 * w;
                 Console.WriteLine("Area: " + area);
                 Console.WriteLine("Perimeter: " + perimeter);
-                again = false;
-            } while (again == true);
+
+                Console.WriteLine("Continue? (y/n)");
+                
+            } while (Console.ReadLine().ToLower() != "n");
         }
     }
 }
