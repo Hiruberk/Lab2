@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tacol\\Desktop\\Grand Circus Docs\\Projects\\Lab2\\Lab2\\Lab2.csproj",
+      "projectUniqueName": "C:\\Users\\tacol\\Desktop\\Grand Circus Docs\\Projects\\Room_Calculator_Lab_2\\Lab2\\Lab2.csproj",
       "projectName": "Lab2",
-      "projectPath": "C:\\Users\\tacol\\Desktop\\Grand Circus Docs\\Projects\\Lab2\\Lab2\\Lab2.csproj",
+      "projectPath": "C:\\Users\\tacol\\Desktop\\Grand Circus Docs\\Projects\\Room_Calculator_Lab_2\\Lab2\\Lab2.csproj",
       "packagesPath": "C:\\Users\\tacol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tacol\\Desktop\\Grand Circus Docs\\Projects\\Lab2\\Lab2\\obj\\",
+      "outputPath": "C:\\Users\\tacol\\Desktop\\Grand Circus Docs\\Projects\\Room_Calculator_Lab_2\\Lab2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tacol\\AppData\\Roaming\\NuGet\\NuGet.Config",
